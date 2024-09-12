@@ -1,3 +1,5 @@
+const a = require('./log_util.js');
+
 module.exports.dbAccessError = function () {
   const result = {
     success: false,
