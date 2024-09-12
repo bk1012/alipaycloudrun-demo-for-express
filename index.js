@@ -11,6 +11,8 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static('public'));
 
+console.log('13123');
+
 
 // 首页
 app.get("/", async (req, res) => {
