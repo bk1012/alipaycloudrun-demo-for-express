@@ -21,7 +21,7 @@ RUN npm config set registry https://registry.npm.taobao.org/
 
 # 暴露端口
 # 此处端口必须与构建小程序服务端时填写的服务端口和探活端口一致，不然会部署失败
-EXPOSE 80
+EXPOSE 5000
 
 # npm 安装依赖
 RUN npm install
